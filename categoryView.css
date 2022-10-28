@@ -1,0 +1,330 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+*{
+    font-family:'Poppins';
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    transition:all .2s linear;
+    transition:width none;
+}
+
+html{
+    font-size: 80.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5rem;
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar{
+    width:.8rem;
+}
+
+html::-webkit-scrollbar-track{
+    background:transparent;
+}
+
+html::-webkit-scrollbar-thumb{
+    background:#536872;
+    border-radius: 7rem;
+}
+
+body{
+   background: #FFFFFF;
+}
+
+@media (max-width: 520px){
+    .header .title a i{
+        font-size: 20px;
+    }
+     .header .title a{
+        font-size: 20px;
+    }
+    .choices .navbar a{
+            margin-left: 10px;
+            font-size: 15px;
+    }
+    .choices .navbar a:hover{
+        font-size: 20px;
+    }
+    .choices{
+        padding: 1px 1px;
+    }
+
+    .home .content .c1{
+        font-size:30px;
+        padding-top: 20%;
+
+    }
+    
+    .home .content .c2{
+        font-size:50px;        
+    }
+      .home .content .c3{
+        margin-bottom:10%;
+        font-size:20px;
+   
+    }
+      .home .content .c4{
+        margin-bottom:10%;
+        width:80%;
+        font-size:20px;
+    }
+    .home .content{
+        width:fit-content;
+        background-size:cover;
+    }
+    .Categ .categ{
+        font-size: 50px;
+    }
+    
+    
+    .categ1 .cc1, .categ2 .cc1{
+        font-size: 40px;
+    }
+    .footer .footerIcons a{ 
+        font-size: 15px;
+    }
+    
+  
+}
+
+  /* CAROUSEL */
+  .product {
+    position: relative;
+    overflow: hidden;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-left: auto;
+    margin-right: auto; 
+  }
+  
+  .product-card:hover{
+    cursor: pointer;
+    box-shadow: 4px 4px 40px -2px rgba(0, 0, 0, 0.25);
+  }
+  
+  .product-category {
+    padding: 0 5vw;
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 40px;
+    text-transform: capitalize;
+  }
+  
+  .product-container {
+    padding: 0 6vw;
+    display: flex;
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    height: 600px;
+  }
+  
+  .product-container::-webkit-scrollbar {
+    display: none;
+  }
+  
+  .product-card {
+    margin-top: 5%;
+    flex: 0 0 auto;
+    margin-right: 40px;
+    width: 359px;
+    height: 453px;
+    background: #FCFCFC;
+    box-shadow: 0px 4px 18px 3px rgba(83, 104, 114, 0.39);
+    border-radius: 20px;
+  }
+
+  .product-image {
+    position: relative;
+    width: 85%;
+    height: 98%;
+    left:2em;
+    top:2em;
+    overflow: hidden;
+  }
+
+  .product-info{
+    position: relative;
+    text-align: center;
+    bottom: 11%;
+    color: #536872;;
+    font-family: 'Poppins';
+    font-weight: 700;
+  }
+
+  img{
+    max-width: 100%;
+    max-height: 80%;
+}
+  
+  .pre-btn,
+  .nxt-btn {
+    border: none;
+    width: 10vw;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    cursor: pointer;
+    z-index: 8;
+  }
+  
+  .pre-btn {
+    left: 0;
+    transform: rotate(180deg);
+  }
+  
+  .nxt-btn {
+    right: 0;
+  }
+  
+  .pre-btn img,
+  .nxt-btn img {
+    opacity: 0.2;
+  }
+  
+  .pre-btn:hover img,
+  .nxt-btn:hover img {
+    opacity: 1;
+  }
+  
+/* LAYBRARYANG PINOY HEADER */
+
+.header{
+    background: #FFFFFF;
+    display: flex;
+    padding: 15px 3%;
+    box-shadow:rgba(17 17 17 / 15%) 0px 0.5rem 1rem;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    font-size: 15px;
+
+}
+
+
+.title{
+    display:flex;
+    margin-right: -0%;
+    margin-left: auto;
+}
+
+.header .pinoy{
+    color: #536878;
+    font-family: 'Montserrat';
+    font-weight: bolder;
+    font-size: 28px;
+}
+.header i{
+    font-size:28px; 
+    color: #536878;
+ }
+
+
+  /* NAV BAR YUNG MAY 3 CHOICES SA BABA NG LOGO */
+
+.choices {
+    background: #536872;
+    display: flex;
+    padding: 15px 3%;
+    box-shadow:rgba(17 17 17 / 15%) 0px 0.5rem 1rem;
+    width: 100%;
+    font-size: 15px;
+  }
+ 
+  .navbar{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto 
+  }
+  .navbar a{
+    margin-left:50px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover{
+    border-radius:25%;
+    color: #7F9DAC;
+    font-size: 30px;
+    
+  }
+
+
+/* CONTENT*/
+.Categ{
+    align-items: center;
+    justify-content: center;
+}
+.categ{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 144px;
+    text-align: center;
+    
+    color: #536872;
+    
+}
+
+.categ1{
+    background: #F0F0F0;
+}
+
+.cc1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 80px;
+    padding-left:5%;
+    padding-top:3%;
+    
+    color: #536872;
+}
+
+
+/*FOOTER CONTENT*/
+
+.footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color:#FFFFFF;
+    font-family: 'Inter';
+    background-color: #36454F;
+    padding-left: 5%;
+}
+
+.footer a{
+    color:#FFFFFF;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+  
+
+}
+
+.footerIcons{
+    margin-left : 1%;
+}
+
+.footerIcons .fab:hover{
+    font-size: 28px;
+    color: #99ADC0;
+}
+
+.footerIcons .fa-solid:hover{
+    font-size: 28px;
+    color: #99ADC0; 
+}
+
+ 
