@@ -444,7 +444,35 @@ body{
     left:0.4em;
 }
 
+.ge1{
+    position: relative;
+    top: 1em;
+    left: 0.1em;
+}
 
+.ge2{
+    position: relative;
+    top: 1em;
+    left: 0.4em;
+}
+
+.ge3{
+    position: relative;
+    top: 1em;
+    left: 1em;
+}
+
+.ge4{
+    position: relative;
+    top: 1em;
+    left: 0.6em;
+}
+
+.ge5{
+    position: relative;
+    top: 1em;
+    left: 0.9em;
+}
 
 .c4{
     
@@ -694,8 +722,8 @@ color: #536872;
     margin-top: 5%;
     flex: 0 0 auto;
     margin-right: 40px;
-    width: 359px;
-    height: 453px;
+    width: 330px;
+    height: 150px;
     background: #FCFCFC;
     box-shadow: 0px 4px 18px 3px rgba(83, 104, 114, 0.39);
     border-radius: 20px;
@@ -707,7 +735,7 @@ color: #536872;
     width: 10vw;
     height: 100%;
     position: absolute;
-    top: 0;
+    bottom: 10.8em;
     display: flex;
     justify-content: center;
     align-items: center;
