@@ -168,8 +168,7 @@ a{
 }
 
 .g1{
-  position: relative;
-  bottom: 0;
+  align-self: center;
   
   
   
@@ -177,22 +176,21 @@ a{
 }
 
 .g2{
-  position: relative;
-  bottom: 0;
+  align-self: center;
   
   
 }
 
 .g3{
   position: relative;
-  bottom: 0;
+  align-self: center;
   
   
 }
 
 .g4{
   position: relative;
-  bottom: 0;
+  align-self: center;
   
   
 }
