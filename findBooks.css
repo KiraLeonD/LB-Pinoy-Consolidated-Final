@@ -101,7 +101,7 @@ a{
   padding-left: 10%;
   padding: 15px 50px;
   margin-top: 2%;
-  font-size: 32px;;
+  font-size: 22px;
   gap: 10px;
   font-weight: bolder;
   color:#FFFFFF;
@@ -109,6 +109,7 @@ a{
   background: linear-gradient(180deg, #99ADC0 99.99%, #536878 100%);
   box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
   border-radius: 20px;
+  
 
   
 }
@@ -119,7 +120,7 @@ a{
   padding-left: 10%;
   padding: 15px 50px;
   margin-top: 2%;
-  font-size: 32px;;
+  font-size: 22px;
   gap: 10px;
   font-weight: bolder;
   color:#FFFFFF;
@@ -136,7 +137,7 @@ a{
   padding-left: 10%;
   padding: 15px 50px;
   margin-top: 2%;
-  font-size: 32px;;
+  font-size: 22px;
   gap: 10px;
   font-weight: bolder;
   color:#FFFFFF;
@@ -153,7 +154,7 @@ a{
   padding-left: 10%;
   padding: 15px 50px;
   margin-top: 2%;
-  font-size: 32px;;
+  font-size: 22px;
   gap: 10px;
   font-weight: bolder;
   color:#FFFFFF;
@@ -163,6 +164,36 @@ a{
   border-radius: 20px;
 
 }
+
+.g1{
+  position: relative;
+  bottom: 0;
+  
+  left: 7em;
+}
+
+.g2{
+  position: relative;
+  bottom: 0;
+  
+  left: 4em;
+}
+
+.g3{
+  position: relative;
+  bottom: 0;
+  
+  right: -1em;
+}
+
+.g4{
+  position: relative;
+  bottom: 0;
+  
+  right: 2em;
+}
+
+
 
 .bktype1:hover{
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
